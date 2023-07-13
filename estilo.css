@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'raleway', sans-serif;
+}
+
+html {
+    background-color: #fbfbfb;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*logomarca*/
+.logomarca {
+    width: 12vw;
+
+}
+
+/*titulo da secao*/
+.titulo {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #4e4b59;
+}
+
+.descricao {
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 2.5rem;
+    color: #4e4b59;
+
+}
+
+/*cabecalho*/
+.cabeçalho {
+    /*background-color:red;*/
+    padding: 32px 0px;
+    box-shadow: 0px 1px 10px #0000001a;
+}
+
+/*menu*/
+.menu {
+
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-navegacao {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+/* ul.links-navegacao > li > a 1.4rem=20px*/
+.links-navegacao li a {
+    padding: 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+li.registrar a {
+    color: #ff6e22;
+}
+
+li.registrar a:hover {
+    padding: 10px 13px;
+    transition: 0.5s ease;
+    font-size: 1.5rem;
+
+}
+
+.corpo {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+
+.painel-principal {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 128px;
+    /*força um novo valor da margem dizendo 0 em cima e embaixo auto na esq e dir e assume um novo valor*/
+}
+
+.anuncio-petz {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/*corpo principal main*/
+.botao-principal {
+    font-size: 19px;
+    cursor: pointer;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 16px 32px;
+    /* dessa forma simplifica a maneira de descrever top booton 16px left rigth 32px*/
+    padding-top: 16px;
+    color: #f5f5f5;
+    background-color: #ff950d;
+    border-radius: 10px;
+    border: 1px solid #f5f5f5;
+
+}
+
+.imagens-petz {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.fotos-da-esquerda,
+.fotos-da-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fotos-da-esquerda img {
+    width: 10vw;
+    border-radius: 8px;
+}
+
+.fotos-da-direita img {
+    width: 22vw;
+    border-radius: 8px;
+
+
+}
+
+/*Secao perfil*/
+.tipos-perfil {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #ff880026;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tipos-perfil h2 {
+    width: 52%;
+    text-align: center;
+
+}
+
+.cards-container {
+    width: 70%;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+.card-de-perfil {
+    width: 28vw;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+    box-shadow: 2px 2px 15px #4e4b5926;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-de-perfil img {
+    width: 16vw;
+}
+
+.conteudo-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-card {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #0088ae;
+
+
+}
+
+.link-rosa {
+    color: #a944ff;
+}
+
+/*secao dos pilares*/
+.valores-da-plataforma {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sobre-os-valores {
+    width: 50%;
+
+
+}
+.sobre-os-valores p{
+    margin-top: 30px;
+}
+
+.valores-topicos {
+    width: 50%;
+    padding-top: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.coluna-valores {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pilar {
+    margin: 32px;
+    text-align: center;
+}
+
+.pilar p {
+    margin-top: 18px;
+    font-weight: 500;
+
+
+}
+
+.box-pilar {
+    color: #fafafa;
+    font-size: 32px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px;
+
+}
+
+span.azul {
+    background: #0088ae;
+}
+
+span.laranja {
+    background: #ff8800;
+
+
+}
+
+span.roxo {
+    background: #a944ff;
+
+}
+/*Rodape foter*/
+.rodape{
+    background-color: #0088AE;
+
+}
+.conteudo-rodape{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 0 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5f5f5;
+}
+.copyright{
+    padding-bottom: 16px;
+    text-align: center;
+    color: #f5f5f5;
+}
